@@ -1,0 +1,6 @@
+local args = {
+
+[1] = workspace:WaitForChild("BoxingBags"):WaitForChild("6")
+
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("PunchingBags"):WaitForChild("Events"):WaitForChild("Punch"):FireServer(unpack(args))
